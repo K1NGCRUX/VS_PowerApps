@@ -336,3 +336,8 @@ Screen1 As screen:
         Y: =300
         ZIndex: =4
 
+    RohitLabel As label:
+        Text: ="This is a brand new label"
+        X: =600
+        Y: =450
+        ZIndex: =20

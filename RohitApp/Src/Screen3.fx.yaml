@@ -23,6 +23,7 @@ Screen3 As screen:
 
     Image3 As image:
         Height: =67
+        Image: =User().Image
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100

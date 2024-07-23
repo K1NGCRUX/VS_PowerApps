@@ -6,3 +6,29 @@ Screen3 As screen:
         Y: =400
         ZIndex: =4
 
+    Rectangle1 As rectangle:
+        Height: =91
+        Width: =1366
+        ZIndex: =5
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =46
+        Size: =30
+        Text: ="Hi " & User().FullName
+        Width: =282
+        X: =20
+        Y: =21
+        ZIndex: =6
+
+    Image3 As image:
+        Height: =67
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =76
+        X: =1278
+        Y: =10
+        ZIndex: =7
+

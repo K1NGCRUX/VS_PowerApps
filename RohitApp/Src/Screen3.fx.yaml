@@ -1,0 +1,8 @@
+Screen3 As screen:
+
+    RohitNewLabel As label:
+        Text: ="Rohit new label"
+        X: =500
+        Y: =400
+        ZIndex: =4
+

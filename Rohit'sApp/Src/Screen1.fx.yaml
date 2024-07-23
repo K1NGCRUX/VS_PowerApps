@@ -1,5 +1,4 @@
 Screen1 As screen:
-
     Form1 As form.PowerApps_CoreControls_Form:
         DataSource: =Accounts
         Height: =204
@@ -71,65 +70,65 @@ Screen1 As screen:
                 Y: =DataCardKey4.Y
                 ZIndex: =4
 
-        "'Account Rating_DataCard1' As typedDataCard.fluentV9ComboBoxOptionSetSingleEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="accountratingcode"
-            Default: =ThisItem.'Account Rating'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Accounts],DataSourceInfo.DisplayName,accountratingcode)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =false
-            Update: =DataCardValue5.Selected.Value
-            Width: =306
-            X: =1
-            Y: =1
-            ZIndex: =1
+        ? "'Account Rating_DataCard1' As typedDataCard.fluentV9ComboBoxOptionSetSingleEditCard"
+        : BorderStyle: =BorderStyle.Solid
+          DataField: ="accountratingcode"
+          Default: =ThisItem.'Account Rating'
+          DisplayMode: =Parent.DisplayMode
+          DisplayName: =DataSourceInfo([@Accounts],DataSourceInfo.DisplayName,accountratingcode)
+          Fill: =RGBA(0, 0, 0, 0)
+          Height: =70
+          Required: =false
+          Update: =DataCardValue5.Selected.Value
+          Width: =306
+          X: =1
+          Y: =1
+          ZIndex: =1
 
-            DataCardKey5 As Text:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =Parent.Width - 48
-                Wrap: =false
-                X: =24
-                Y: =10
-                ZIndex: =1
+          DataCardKey5 As Text:
+              DisplayMode: =DisplayMode.Edit
+              Height: =22
+              Text: =Parent.DisplayName
+              Weight: ='TextCanvas.Weight'.Semibold
+              Width: =Parent.Width - 48
+              Wrap: =false
+              X: =24
+              Y: =10
+              ZIndex: =1
 
-            DataCardValue5 As Combobox.pcfdataset:
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                DefaultSelectedItems: =[Parent.Default]
-                DisplayMode: =Parent.DisplayMode
-                Height: =32
-                Items: =Choices('Account Rating (Accounts)')
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Width: =Parent.Width - 48
-                X: =24
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 4
-                ZIndex: =2
+          DataCardValue5 As Combobox.pcfdataset:
+              AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+              DefaultSelectedItems: =[Parent.Default]
+              DisplayMode: =Parent.DisplayMode
+              Height: =32
+              Items: =Choices('Account Rating (Accounts)')
+              ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+              Width: =Parent.Width - 48
+              X: =24
+              Y: =DataCardKey5.Y + DataCardKey5.Height + 4
+              ZIndex: =2
 
-            ErrorMessage5 As Text:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue5.Y + DataCardValue5.Height
-                ZIndex: =3
+          ErrorMessage5 As Text:
+              DisplayMode: =DisplayMode.Edit
+              Height: =30
+              Text: =Parent.Error
+              Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+              Width: =Parent.Width - 48
+              Wrap: =true
+              X: =24
+              Y: =DataCardValue5.Y + DataCardValue5.Height
+              ZIndex: =3
 
-            StarVisible5 As Text:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =20
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey5.Y
-                ZIndex: =4
+          StarVisible5 As Text:
+              Align: ='TextCanvas.Align'.Center
+              DisplayMode: =DisplayMode.Edit
+              Height: =20
+              Text: ="*"
+              Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+              Width: =30
+              X: =0
+              Y: =DataCardKey5.Y
+              ZIndex: =4
 
         "'Account Name_DataCard1' As typedDataCard.fluentV9TextualEditCard":
             BorderStyle: =BorderStyle.Solid
@@ -336,3 +335,8 @@ Screen1 As screen:
         Y: =297
         ZIndex: =4
 
+    LabelRohit As label:
+    Text: ="This is a text of Rohit"
+    X: =250
+    Y: =100
+    ZIndex: =50

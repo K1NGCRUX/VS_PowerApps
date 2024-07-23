@@ -27,6 +27,7 @@ Screen3 As screen:
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
+        image: User().Image
         Width: =76
         X: =1278
         Y: =10

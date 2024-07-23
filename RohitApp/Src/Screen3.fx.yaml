@@ -1,0 +1,7 @@
+Screen3 As screen:
+
+    Rohit'sNewLabel As label:
+        Text: ="This is a new test for label"
+        X: =300
+        Y: =250
+        ZIndex: =5

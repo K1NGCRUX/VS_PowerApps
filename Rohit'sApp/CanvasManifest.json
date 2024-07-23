@@ -10,7 +10,7 @@
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
-    "AppCopilotSchemaName": null,
+    "AppCopilotSchemaName": "",
     "AppCreationSource": "AppFromScratch",
     "AppDescription": "",
     "AppPreviewFlagsMap": {
@@ -117,7 +117,7 @@
     "FileID": "c68d76f0-7651-4b1b-a1da-ce1e64d7f082",
     "Id": "c68d76f0-7651-4b1b-a1da-ce1e64d7f082",
     "InstrumentationKey": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "VSPowerApps",
     "OriginatingVersion": "1.342",
     "ParserErrorCount": 0,

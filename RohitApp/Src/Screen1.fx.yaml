@@ -339,11 +339,11 @@ Screen1 As screen:
     RohitLabel As label:
         Text: ="This is a test"
         X: =500
-        Y: =450
+        Y: =300
         ZIndex: =5
 
     MahaLabel As label:
         Text: ="This is a test for maha label"
         X: =750
         Y: =550
-        ZIndex: =2
+        ZIndex: =2"Some change" 

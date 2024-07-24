@@ -346,4 +346,4 @@ Screen1 As screen:
         Text: ="This is a test for maha label"
         X: =750
         Y: =550
-        ZIndex: =2"Some change" 
+        ZIndex: =2

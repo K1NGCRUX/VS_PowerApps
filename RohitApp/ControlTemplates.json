@@ -228,7 +228,7 @@
     "Name": "PowerApps_CoreControls_TextInputCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Text input",
-    "Version": "0.0.39"
+    "Version": "0.0.41"
   },
   "typedDataCard": {
     "CustomGroupControlTemplateName": "",

@@ -1,0 +1,16 @@
+name: Simple Workflow
+
+on:
+  push:
+    branches:
+      - MahaS1Branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run a simple script
+      run: echo "Hello, World!"

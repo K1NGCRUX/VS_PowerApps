@@ -342,3 +342,8 @@ Screen1 As screen:
         Y: =450
         ZIndex: =5
 
+    MahaLabel As label:
+        Text: ="This is a test for maha label"
+        X: =750
+        Y: =550
+        ZIndex: =2

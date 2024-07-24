@@ -1,11 +1,5 @@
 Screen3 As screen:
 
-    RohitNewLabel As label:
-        Text: ="Rohit new label"
-        X: =500
-        Y: =400
-        ZIndex: =4
-
     Rectangle1 As rectangle:
         Height: =91
         Width: =1366

@@ -339,7 +339,7 @@ Screen1 As screen:
     RohitLabel As label:
         Text: ="This is a test"
         X: =500
-        Y: =300
+        Y: =600
         ZIndex: =5
 
     MahaLabel As label:
